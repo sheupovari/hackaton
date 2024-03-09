@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+}
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.definition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex {
+  background: #fdfdfd;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+  border-radius:5px;
+}
+.element-center {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.typewrite {
+    font-size: 16pt;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+#inputs {
+    padding: 10px;
+}
+
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 2px solid #dcdcdc;
+  margin-right: 1em;
+}
+
+button {
+    color: white;
+    background: #508abc;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+label {
+    font-size: 2em;
+}
+
+#btnDeposit, #btnWithdraw {
+    width: 8em;
+}
+#exchange-title-color{
+  color: black;
+}
+#acctBalanceLbl{
+  color: black;
+}
+#acctBalance{
+  color: black;
+}
+@media (max-width: 1300px){
+  nav{
+      padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1100px){
+  nav{
+      padding: 0 1rem;
+  }
+}
+
+@media (max-width: 910px){
+  html{
+      font-size: 15px;
+  }
+  .bottom-nav{
+      text-align: center;
+      flex-direction: column;
+      gap: 2rem;
+  }
+  .nav-ul{
+      flex-direction: column;
+  }
+  nav{
+      height: auto;
+      gap: 1.5rem;
+      padding: 1.5rem;
+  }
+}
+
+@media (max-width: 500px){
+  .top-nav{
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+  }
+}
+
+#popupbox{
+  margin: 0; 
+  margin-left: 40%; 
+  margin-right: 40%;
+  margin-top: 50px; 
+  padding-top: 10px; 
+  width: 20%; 
+  height: 150px; 
+  position: absolute; 
+  background: #FBFBF0; 
+  border: solid #000000 2px; 
+  z-index: 9; 
+  font-family: arial; 
+  visibility: hidden; 
+  }
+
+#inputs{
+  color: black;
+}
+
+#title-color{
+  color: black;
+}
+
+#userDeposit{
+  color: black;
+}
+
+#userWithdraw{
+  color: black;
+}
